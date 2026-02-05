@@ -60,29 +60,4 @@ id,target
 ```
 
 Métrica de evaluación
-- La competencia utiliza F1 (macro o micro según la competencia — revisar la página de Kaggle). En el TP se exige usar F1 como métrica de validación para los modelos de la Parte III.
-
-Requisitos del TP (resumen)
-- Parte I: 6 visualizaciones informativas relacionadas con `target`.
-- Parte II: Baseline con regresión logística; crear al menos 2 features numéricas y 2 categóricas, usar embedding para `text`, búsqueda de hiperparámetros y reproducibilidad. Guardar CSV para la competencia.
-- Parte III: Entrenar 2 modelos distintos (no regresión logística) con búsqueda de hiperparámetros; usar F1 en validación; usar mean encoding y one-hot encoding al menos una vez; reproducibilidad; obtener F1 > 0.8 en validación.
-- Parte IV: Consignas adicionales opcionales (LSTM/GRU, KNN con embedding, visualizaciones del embedding, etc.).
-
-Buenas prácticas y reproducibilidad
-- Fijar semillas (`random_state`, `np.random.seed`, `tf.random.set_seed`, `torch.manual_seed`) para permitir reproducibilidad.
-- Realizar validación con `StratifiedKFold` o partición estratificada cuando corresponda.
-- Guardar los parámetros y la semilla usada en el notebook al final.
-
-Entregables esperados
-- Notebooks bien documentados con las partes I-IV claramente separadas.
-- CSVs de predicción para la competencia dentro de `submission/`.
-- Este `README.md` en la raíz del repositorio describiendo el proyecto y pasos para reproducir.
-
-Siguientes pasos sugeridos
-- Crear un `requirements.txt` con las versiones exactas de las librerías usadas.
-- Añadir un pequeño script `make_submission.py` para generar submits desde modelos guardados.
-- Ejecutar los notebooks en un entorno limpio para verificar reproducibilidad.
-
-Contacto / Referencias
-- Competencia Kaggle: `https://www.kaggle.com/c/nlp-getting-started`
-- Discord de la comunidad (en la descripción de la competencia).
+- La competencia utiliza F1 (macro o micro según la competencia — revisar la página de Kaggle).
