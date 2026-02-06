@@ -1,7 +1,9 @@
 # Proyecto: Natural Language Processing with Disaster Tweets
 
 🚀 **Demo online:**  
-https://tomy07417-natural-language-processing-with-disas-fa30b02.hf.space/?__theme=system&deep_link=bMK68R4f7wM
+[![Hugging Face Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Space-yellow)](
+  https://tomy07417-natural-language-processing-with-disas-fa30b02.hf.space/?__theme=system&deep_link=bMK68R4f7wM
+)
 
 Este repositorio reúne el trabajo práctico (TP N.º3) de la materia de Ciencia de Datos / Machine Learning, basado en la competencia de Kaggle "NLP - Getting Started" (https://www.kaggle.com/c/nlp-getting-started).
 
